@@ -1,0 +1,74 @@
+body {  
+background-color: #ffffff;
+}
+
+header {
+    padding: 0% 0;
+    position: relative; 
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #5c64d1;
+	text-decoration: underline;
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+    animation-name: slidein;
+    animation-duration: 2s;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+footer {
+    color: #ffffff;
+    background-color: #202020;
+    padding: 40px 0;
+    text-align: center;
+}
+
